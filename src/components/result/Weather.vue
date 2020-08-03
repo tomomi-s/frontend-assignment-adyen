@@ -39,5 +39,12 @@ export default {
 	.weather img{
 		width: 100%;
 	}
+
+
+	@media(max-width: 600px){
+		.weathers{
+			justify-content: flex-start;
+		}
+	}
 	
 </style>

@@ -93,6 +93,12 @@ export default {
 		margin-bottom: 10px;
 	}
 
+	@media(max-width: 600px){
+		.result{
+			padding: 0;
+		}
+	}
+
 
 	
 </style>

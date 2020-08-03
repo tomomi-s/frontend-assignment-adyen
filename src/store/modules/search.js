@@ -45,7 +45,6 @@ const actions = {
 				searchInfoAndScore('MAD', 'Madrid', '40.4168', '3.7038'),
 				searchInfoAndScore('BUD', 'Budapest','47.4979', '19.0402')
 			]).then((results)=>{
-				console.log(results)
 				//Check if all results have total score more than 0.(means there is something to show) 
 				if(results.filter(result=> result.total_score).length > 0){
 					//Sort the results array based on the total score

@@ -65,9 +65,7 @@
 		grid-gap: 1rem;
 	}
 
-	.vdp-datepicker{
-		position: initial;
-	}
+	
 
 	.datepicker input{
 		padding: 5px 10px;
@@ -102,6 +100,10 @@
 
 		.form-wrapper{
 			grid-template-columns: repeat(1, 1fr);
+		}
+
+		.vdp-datepicker .datepicker{
+			position: initial;
 		}
 
 	}
