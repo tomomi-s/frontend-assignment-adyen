@@ -5,6 +5,18 @@ She would like to go somewhere with good weather or cheap flights(or both).
 
 This app evaluates the different destinations by calculating the score based on the weather and ticket price. 
 
+## Built With
+* [Vuejs](https://vuejs.org/) - Framework
+* [Vuex](https://vuex.vuejs.org/) - State management
+* [OpenWeather](https://openweathermap.org/api) - Weather API
+* [Kiwi](https://docs.kiwi.com/) - Flight API
+* [vuejs-datepicker](https://github.com/charliekassel/vuejs-datepicker) - Date Picker
+
+
+## Improvement
+
+* Error handling
+* Brush up the algorithm 
 
 
 
